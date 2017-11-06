@@ -32,7 +32,8 @@ module.exports = {
     return require('./navigators/TabNavigator').default;
   },
   get DrawerNavigator() {
-    return require('./navigators/DrawerNavigator').default;
+    return null;
+    // return require('./navigators/DrawerNavigator').default;
   },
 
   // Routers
